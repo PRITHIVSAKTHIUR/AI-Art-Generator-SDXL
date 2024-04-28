@@ -50,3 +50,10 @@ import torch
 pipeline = AutoPipelineForText2Image.from_pretrained('Rodan-SDXL-Turbo-Art-Generator-Engine', torch_dtype=torch.float16).to('cuda')        
 image = pipeline('A mecha robot in a favela', num_inference_steps=2).images[0]
 ```
+
+ℹ️Recommended to Deploy inside Huggingface Workspaces
+
+🚀Huggingface Model : https://huggingface.co/prithivMLmods/Rodan-SDXL-Turbo-Art-Generator-Engine
+
+🚀Huggingface Spaces : https://huggingface.co/spaces/prithivMLmods/Art-Generator-Engine
+
