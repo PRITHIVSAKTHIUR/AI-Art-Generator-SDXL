@@ -59,4 +59,5 @@ image = pipeline('A mecha robot in a favela', num_inference_steps=2).images[0]
 
 ℹ️For Deploy the Huggingface Workspaces Using Only the Highlighted Folder Mentioned & Choosing the correct SDK in Huggingface Spaces; 
 
+
 ![alt text](Assets/sx1.png)
