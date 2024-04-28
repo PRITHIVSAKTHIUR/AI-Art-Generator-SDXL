@@ -57,7 +57,7 @@ image = pipeline('A mecha robot in a favela', num_inference_steps=2).images[0]
 
 🚀Huggingface Spaces : https://huggingface.co/spaces/prithivMLmods/Art-Generator-Engine
 
-ℹ️For Deploy the Huggingface Workspaces Using Only the Highlighted Folder Mentioned & Choosing the correct SDK in Huggingface Spaces; 
+ℹ️For the Deployment of Huggingface Workspaces Use Only the Highlighted Folder Mentioned & Choosing the correct SDK in Huggingface Spaces as follows; 
 
 
 ![alt text](Assets/sx1.png)
