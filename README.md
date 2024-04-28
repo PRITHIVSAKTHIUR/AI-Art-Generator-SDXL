@@ -61,3 +61,10 @@ image = pipeline('A mecha robot in a favela', num_inference_steps=2).images[0]
 
 
 ![alt text](Assets/sx1.png)
+
+
+ℹ️Generated Images in Huggingface Spaces: 
+
+🔮Prompt : " natural scenario "
+
+![alt text](Assets/sx2.png)
