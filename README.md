@@ -31,6 +31,9 @@ inference:
     num_inference_steps: 8
 ---
 
+![row01](Assets/8.png)
+
+
 ## SDXL Turbo  x  ComfyUI  x  Automatic1111
 
 <Gallery />
