@@ -34,11 +34,11 @@ inference:
 ![row01](Assets/8.png)
 
 
-## SDXL Turbo  x  ComfyUI  x  Automatic1111
+## SDXL Turbo 
 
 <Gallery />
 
-**AUTOMATIC1111** : This could refer to a specific software or system named AUTOMATIC1111 that deals with tensor operations or machine learning tasks. The .safetensors extension might be used to save or serialize tensor data in a safe and structured manner.
+ This could refer to a specific software or system named AUTOMATIC1111 that deals with tensor operations or machine learning tasks. The .safetensors extension might be used to save or serialize tensor data in a safe and structured manner.
 
 **ComfyUI**: ComfyUI might be a user interface library or framework, and *.safetensors could be related to some functionality within it, perhaps for managing data or state related to tensors in a safe manner.
 
@@ -56,7 +56,16 @@ image = pipeline('A mecha robot in a favela', num_inference_steps=2).images[0]
 
 ℹ️Recommended to Deploy inside Huggingface Workspaces
 
-🚀Huggingface Model : https://huggingface.co/prithivMLmods/Rodan-SDXL-Turbo-Art-Generator-Engine
+🚀Huggingface Model : 
+
+    # Make sure you have git-lfs installed (https://git-lfs.com)
+    git lfs install
+    
+    git clone https://huggingface.co/spaces/prithivMLmods/Art-Generator-Engine
+    
+    # If you want to clone without large files - just their pointers
+    
+    GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/spaces/prithivMLmods/Art-Generator-Engine
 
 🚀Huggingface Spaces : https://huggingface.co/spaces/prithivMLmods/Art-Generator-Engine
 
@@ -71,3 +80,10 @@ image = pipeline('A mecha robot in a favela', num_inference_steps=2).images[0]
 🔮Prompt : " natural scenario "
 
 ![alt text](Assets/sx2.png)
+
+
+.
+
+.
+
+.
